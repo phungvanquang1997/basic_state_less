@@ -17,6 +17,6 @@ Route::get('/', function () {
 	//hehehehedsadsa
 });
 
-Route::get('api/access-token','userController@getTokens');
+Route::get('api/access-token1','userController@getTokens');
 
 Route::get('api/get-data','userController@getData')->middleware('verifytoken');
